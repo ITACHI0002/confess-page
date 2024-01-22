@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Salsa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Salsa', cursive;
+}
+
+.bground{
+    background-color: pink;
+    padding:252px;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt1{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 44%;
+    top: 63%;
+    padding-right: 0;
+}
+.txt2{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 42%;
+    top: 65%;
+    padding-right: 0;
+}
+
+
+
+
+
+#button1{
+    padding:15px 25px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    font-weight: bold;
+    position: absolute;
+    left: 43%;
+    top:70%;
+    cursor: pointer;
+
+}
+#button2{
+    padding:15px 29px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    margin-left: 30px;
+    font-weight: bold;
+    transition: .5s;
+    position: absolute;
+    left: 49%;
+    top:70%;
+    cursor: pointer;
+}
+
+.socials{
+    position: absolute;
+    top:80%;
+    left: 43%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+}
